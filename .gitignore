@@ -1,7 +1,7 @@
 # Specifies files to intentionally ignore when using Git
 # http://git-scm.com/docs/gitignore
 
-/src/lib/
+src/lib/
 node_modules/
 platforms/
 plugins/
@@ -10,3 +10,4 @@ hooks/
 .DS_Store
 Thumbs.db
 .tmp
+npm-debug.log

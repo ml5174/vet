@@ -24481,18 +24481,16 @@ h6 {
   font-family: Arial;
 }
 
-app-header > ion-navbar > div.toolbar-background {
-  background-image: url("../assets/img/logo.svg");
-  background-repeat: no-repeat;
-  background-size: auto 85%;
-  background-position: left 5px top 5px;
+.header-image {
+  width: 107px;
+  height: 97px;
+  padding: 0;
 }
 
-ion-header > ion-navbar > div.toolbar-background {
-  background-image: url("../assets/img/logo.svg");
-  background-repeat: no-repeat;
-  background-size: auto 85%;
-  background-position: left 5px top 5px;
+.header-title {
+  padding-left: 75px;
+  position: absolute;
+  top: -75px;
 }
 
 #right-menu > div {
@@ -24773,13 +24771,6 @@ ion-card-header {
   white-space: normal !important;
 }
 
-.hello-ionic-page p {
-  margin: 20px 0;
-  line-height: 22px;
-  font-size: 16px;
-  background: green;
-}
-
 .item .pcm-radio {
   position: absolute;
   left: 0;
@@ -24833,13 +24824,6 @@ ion-label[stacked] {
   color: #FF173D;
 }
 
-.hello-ionic-page p {
-  margin: 20px 0;
-  line-height: 22px;
-  font-size: 16px;
-  background: green;
-}
-
 .icons-basic-page ion-icon {
   font-size: 100px;
 }
@@ -24886,69 +24870,9 @@ img {
   width: 100%;
 }
 
-.dynamicPageContainer {
-  padding-top: 15px;
-}
-
-#home .welcome-header {
-  background: whitesmoke;
-  margin: 0;
-}
-
-#home .closed-tab {
-  background: silver;
-  color: white;
-}
-
-#home .open-tab {
-  background: grey;
-  color: white;
-}
-
-#home .thin-item {
-  background: whitesmoke;
-  margin: 1px;
-  padding: 10px;
-}
-
-#searchbutton {
-  float: left;
-}
-
-#login-bar {
-  background: #f8f8f8;
-  width: 100%;
-  height: 54px;
-  display: block;
-  box-shadow: border-box;
-  overflow: hidden;
-}
-
-#login-bar #language-select {
-  float: left;
-  background: white;
-  font-size: large;
-  margin: 7px 7px 0px 25px;
-  padding: 9px 7px 0px 16px;
-  width: 185px;
-  height: 40px;
-  border-width: 1px;
-}
-
-#login-bar #language-select .select-icon {
-  width: 15px;
-  height: 27px;
-}
-
-#login-bar #language-select button > span {
-  height: 45px;
-}
-
-#login-bar #login-button {
-  float: right;
-  padding: 5px;
-  width: 85px;
-  margin-right: 15px;
+#iframe-content {
+  position: absolute;
+  top: -200px;
 }
 
 .login {
